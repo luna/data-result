@@ -28,10 +28,10 @@ unsafeFromResult = fromJust ∘ maybeResult
 
 
 class    IfOk m         where ifOk :: m a -> (a -> b) -> b -> b
-instance IfOk Ok        where ifOk (Ok a) f _ = f a 
-instance IfOk (Error e) where ifOk _ _ e      = e 
+instance IfOk Ok        where ifOk (Ok a) f _ = f a
+instance IfOk (Error e) where ifOk _ _ e      = e
 
--- Basic instances 
+-- Basic instances
 
 instance Applicative Ok where pure = Ok
                               Ok f <*> Ok a = Ok $ f a
@@ -49,7 +49,7 @@ instance Monad       (Error e) where return _ = Error
 
 
 -- Wrappers
-instance      Coated    Ok
+--instance      Coated    Ok
 type instance Unlayered (Ok a) = a
 instance      Layered   (Ok a)
 instance      Rewrapped (Ok a) (Ok a')
