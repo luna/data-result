@@ -5,9 +5,9 @@
 ---------------------------------------------------
 
 name:                data-result
-version:             1.0
+version:             1.0.1
 synopsis:            Data types for returning results distinguishable by types.
--- description:         
+-- description:
 license:             Apache-2.0
 license-file:        LICENSE
 author:              Wojciech Danilo
@@ -18,7 +18,7 @@ bug-reports:         https://github.com/wdanilo/data-result/issues
 copyright:           Copyright (C) 2016 Wojciech Danilo
 category:            Text
 build-type:          Simple
--- extra-source-files:  
+-- extra-source-files:
 cabal-version:       >=1.10
 
 
@@ -50,10 +50,10 @@ Library
                       TypeOperators
                       ViewPatterns
                       TypeFamilies
-  
+
   Exposed-modules: 
         Data.Result
 
-  build-depends:      base >=4.6 && <4.9
+  build-depends:      base >=4.6 && <4.10
                     , poly-control
                     , prologue
