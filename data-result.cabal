@@ -3,7 +3,7 @@
 -- see: https://github.com/sol/hpack
 
 name:           data-result
-version:        1.0.1
+version:        1.0.2
 synopsis:       Data types for returning results distinguishable by types.
 category:       Text
 stability:      experimental
