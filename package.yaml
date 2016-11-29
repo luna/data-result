@@ -18,4 +18,4 @@ maintainer: Wojciech Danilo <wojciech.danilo@gmail.com>
 name: data-result
 stability: experimental
 synopsis: Data types for returning results distinguishable by types.
-version: 1.0.3
+version: 1.0.4
