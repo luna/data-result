@@ -7,7 +7,7 @@ default-extensions: [ConstraintKinds, DataKinds, DefaultSignatures, DeriveDataTy
   EmptyDataDecls, FlexibleContexts, FlexibleInstances, GeneralizedNewtypeDeriving,
   InstanceSigs, LambdaCase, MultiParamTypeClasses, OverloadedStrings, StandaloneDeriving,
   TemplateHaskell, TupleSections, TypeOperators, ViewPatterns, TypeFamilies]
-dependencies: [base >=4.6 && <4.10, poly-control, prologue]
+dependencies: [base, poly-control, prologue]
 ghc-options: [-Wall, -O2]
 homepage: https://github.com/wdanilo/data-result
 library:
@@ -18,4 +18,4 @@ maintainer: Wojciech Danilo <wojciech.danilo@gmail.com>
 name: data-result
 stability: experimental
 synopsis: Data types for returning results distinguishable by types.
-version: 1.0.6
+version: 1.0.7
