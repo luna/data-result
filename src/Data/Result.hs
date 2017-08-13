@@ -1,6 +1,6 @@
 module Data.Result where
 
-import Prologue hiding (Assert)
+import Prologue_old hiding (Assert)
 
 import Control.Monad.Poly
 import Control.Applicative.Poly
